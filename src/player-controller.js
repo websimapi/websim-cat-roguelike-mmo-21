@@ -2,8 +2,8 @@ import { Input } from './input.js';
 import { CONFIG } from './config.js';
 import { checkCollision, spawnProjectile } from './physics.js';
 import { playSound } from './assets.js';
-import { state, localPlayer } from './game.js'; // Changed from './state.js'
-import { room } from './game.js'; // Changed from './network.js'
+import { state, localPlayer } from './state.js';
+import { room } from './network.js';
 import { interactWithNPC } from './ai.js';
 
 // Helper to update facing based on current mouse position
